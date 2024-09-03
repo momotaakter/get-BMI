@@ -1,0 +1,134 @@
+
+body{
+    background-color:rgba(57, 4, 107, 0.979);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform:capitalize;
+}
+.main-container{
+    width:50%;
+    height:500px;
+    background-color: rgb(57, 4, 107);
+    margin:10px;
+    padding:10px;
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    align-items: center;
+}
+h1{
+    color:black;
+    text-transform:capitalize;
+ text-align: center;
+ background-color:rgb(13, 250, 171);
+   
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:10px;
+    border-radius:10px;
+
+}
+.text-container{
+    margin:20px;
+}
+
+.input-container{
+
+    background-color:rgba(95, 158, 160, 0.493);
+    border-radius: 10px;
+    padding:20px;
+ 
+}
+label{
+    display: block;
+    color:white;
+    text-transform: capitalize;
+    font-size:21px;
+    margin-top:7px;
+    font-size:17px;
+
+
+}
+input{
+   width:100%;
+   border-radius:7px;
+ padding:10px  0px;
+ border:none;
+ margin-top:10px;
+ background-color:white;
+ text-align: center;
+color:black;
+ border: none;
+}
+input::placeholder{
+    text-transform: capitalize;
+    padding:10px;
+    color:black;
+}
+input::after{
+    border:none;
+}
+button{
+    background-color:rgb(13, 250, 171);
+    width:50%;
+    margin-top:20px;
+    padding:15px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    color:black;
+    text-transform: capitalize;
+
+}
+.last-inputt{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color:white;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 30px;
+
+}
+@media screen and (max-width:991px) {
+    .main-container{
+        width:70%;
+    }
+    h1{
+        font-size:21px;
+    }
+}
+P{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+span{
+    text-decoration: underline;
+    color:rgb(10, 248, 169)
+}
+.comment-section{
+font-size: 17px;
+text-align: center;
+color:white;
+font-weight: normal;
+padding-top:60px;
+ width: 50%;
+ margin:0 auto;
+
+
+}
+@media screen and (max-width:576px) {
+    .comment-section{
+        padding-top:90px;
+    }
+    p{
+        font-size:17px;
+    }
+}
+
